@@ -1,6 +1,7 @@
 # CrudClientes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
+Subiendo carpetas de recursos para el frontend. Incluye descargas necesarias, archivos de estilo, e imágenes. Ejecutado `npm install` para instalar dependencias del proyecto.
 
 ## Development server
 
