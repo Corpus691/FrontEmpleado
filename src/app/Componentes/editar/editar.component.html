@@ -1,0 +1,36 @@
+<div class = "container">
+  <div class = "card">
+      <div class = "card-header">
+          <h2>Editar Clientes</h2>
+      </div>
+      <div class = "card-body">
+          <form action="">
+              <div class="form-group">
+                  <label for = "id">iduser</label>
+                  <input type = "text" class = "form-control" name = "idCliente"[(ngModel)] = "clientes.idCliente">
+              </div>
+              <div class="form-group">
+                  <label for = "nombre">nombre</label>
+                  <input type = "text" class = "form-control" name = "clienteNombre"[(ngModel)] = "clientes.clienteNombre">
+              </div>
+              <div class="form-group">
+                  <label for = "marca">puesto</label>
+                  <input type = "text" class = "form-control" name = "clienteFechaCreacion"[(ngModel)] = "clientes.clienteFechaCreacion">
+              </div>
+              <div class="form-group">
+                  <label for = "precio">salario</label>
+                  <input type = "text" class = "form-control" name = "clienteFechaModificacion"[(ngModel)] = "clientes.clienteFechaModificacion">
+              </div>
+              <div class="form-group">
+                  <label for = "precio">fecha_contratacion</label>
+                  <input type = "text" class = "form-control" name = "fechacontratacion"[(ngModel)] = "clientes.fechacontratacion">
+              </div>
+              <div class="form-group">
+                <label for = "precio">ID_CLIENTE</label>
+                <input type = "text" class = "form-control" name = "idCliente"[(ngModel)] = "clientes.idCliente">
+            </div>
+              <button class = "btn btn-warning" (click)="editar()">Guardar Cambios</button>
+          </form>
+      </div>
+  </div>
+</div>
